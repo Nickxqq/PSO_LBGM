@@ -1,6 +1,5 @@
 # PSO_LBGM
-Our project aims to develop clinical risk prediction models using the LGBM machine learning model on  Psoriasis (PsD) datasets. We will assess the importance of various clinical factors and evaluate the model's performance, with a focus on demonstrating that the potential biological targets PRSS8 and CDSN have significant predictive value for PsD.
-Research abstract
+
 Objective 
 The aim of this study is to identify new predictive biomarkers as well as potential therapeutic targets for psoriatic diseases (PsD). 
 Methods 
@@ -9,4 +8,4 @@ Results
 We screened 4,199 proteins and identified 23 candidate proteins significantly associated with incident PsD. At the transcript level, the mRNA expression of eight candidate proteins showed significant differences between psoriatic and non-psoriatic samples, as well as between lesional and non-lesional skin in PsD patients. In a large cohort over 12 years of follow-up, plasma levels of PRSS8 and CDSN were associated with a 39% and 23% higher risk of incident PsD per SD increase, respectively. Incorporating PRSS8 and CDSN significantly improved the model based on clinical predictors, with an area under the receiver operating characteristic (ROC) curve of 0.89 compared to 0.70. Silencing PRSS8 and CDSN resulted in a significant reduction of psoriasis-like lesions and inflammatory markers in vivo.
 Conclusions  
 Our study has uncovered numerous plasma proteins associated with PsD. Among these candidate proteins, PRSS8 and CDSN stand out as both predictive biomarkers and promising therapeutic targets.
-![Uploading 4ddbc68ed8ddce2cd474026b083ab3a.png…]()
+
