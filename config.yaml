@@ -1,0 +1,32 @@
+data:
+  input_file: "C:\\Users\\Nickxqq\\Desktop\\project\\ML_data\\save_risk_scores.csv"
+  num_iterations: 100
+  top_n_models: 10
+  features: ["CDSN","PRSS8","Risk_Score"]
+
+model:
+  fixed_params:
+    n_estimators: 500
+    learning_rate: 0.01
+    num_leaves: 10
+    max_depth: 15
+    colsample_bytree: 0.7
+    subsample: 0.7
+    random_state: 21
+  pretrained_model_path: "C:\\Users\\Nickxqq\\Desktop\\project\\LBGM_result_clinic_da\\model_clinic.pkl"
+paths:
+  roc_plot: "C:\\Users\\Nickxqq\\Desktop\\project\\LBGM_result\\roc_plot.pdf"
+  roc_sp_plot: "C:\\Users\\Nickxqq\\Desktop\\project\\LBGM_result\\roc_sp_plot.pdf"
+  shap_summary_plot: "C:\\Users\\Nickxqq\\Desktop\\project\\LBGM_result\\shap_summary_plot.pdf"
+  shap_beeswarm_plot: "C:\\Users\\Nickxqq\\Desktop\\project\\LBGM_result\\shap_beeswarm_plot.pdf"
+  auc_and_feature_importance_plot: "C:\\Users\\Nickxqq\\Desktop\\project\\LBGM_result\\auc_and_feature_importance_plot.pdf"
+  results_csv: "C:\\Users\\Nickxqq\\Desktop\\project\\LBGM_result\\result_cp.csv"
+  model_path: "C:\\Users\\Nickxqq\\Desktop\\project\\LBGM_result\\model_cp.pkl"
+  scored_data_output: "C:\\Users\\Nickxqq\\Desktop\\project\\LBGM_result\\scored_data.csv"
+
+delong:
+  input_file: "C:\\Users\\Nickxqq\\Desktop\\project\\ML_data\\save_risk_scores.csv"
+
+  features_1: ['f.30710.0.0', 'f.30180.0.0', 'f.48.0.0', 'f.21022.0.0', 'f.30150.0.0', 'f.135.0.0', 'f.1249.0.0', 'f.1647.0.0', 'f.6152.0.0', 'f.2188.0.0']
+  features_2: ["CDSN","PRSS8"]
+  features_3: ["CDSN","PRSS8","Risk_Score"]
